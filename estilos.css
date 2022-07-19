@@ -25,8 +25,16 @@ header ul {
 
 header ul li {
     flex: 1;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Cormorant SC', serif;
     font-size: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Cormorant SC', serif;
+}
+
+p {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 main {
@@ -53,27 +61,75 @@ main {
     padding-right: 10%;
     text-align: justify;
 }
-
+main ul {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
 main h3 {
     padding-left: 10%;
     padding-right: 10%;
 }
-#Fogo {
-    background: url(imgs/Elemicons/Fogo.png) no-repeat left;
-    padding-left: 30px;
+
+th {
+    font-family: 'Cormorant SC', serif;
+    font-size: 30px;
+    text-align: center;
 }
 
-#Agua {
-    background: url(imgs/Elemicons/Agua.png) no-repeat left;
-    padding-left: 30px;
+table {
+    font-size: 20px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-#Vento {
-    background: url(imgs/Elemicons/Vento.png) no-repeat left;
-    padding-left: 30px;
+.ttop {
+    border-top: 2px solid black;
 }
 
-#Terra {
-    background: url(imgs/Elemicons/Terra.png) no-repeat left;
-    padding-left: 30px;
+.tbottom {
+    border-bottom: 2px solid black;
+}
+
+.tleft {
+    border-left: 2px solid black;
+}
+
+.tright {
+    border-right: 2px solid black;
+}
+
+a:link {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+a:visited {
+    color: rgb(150, 150, 150);
+}
+
+a:hover {
+    color: silver;
+}
+
+a:active {
+    color: white;
+    outline: 2px outset silver
+}
+
+.textlink:link {
+    color: indigo;
+}
+
+.textlink:visited  {
+    color: indigo;
+}
+
+.textlink:hover {
+    color: silver;
+}
+
+.textlink:active {
+    color: white;
+    outline: 2px outset silver
 }
